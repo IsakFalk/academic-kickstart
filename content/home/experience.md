@@ -4,7 +4,7 @@ widget = "experience"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 
 title = "Experience"
-subtitle = ""
+subtitle = "What I have done outside of academia"
 
 # Order that this section will appear in.
 weight = 8
@@ -19,27 +19,14 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  title = "Data Scientist"
+  company = "swhere"
+  company_url = "http://www.swhere.com/"
+  location = "London"
+  date_start = "2017-09-25"
+  date_end = "2018-05-01"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Worked in a data science consultancy team where we implemented end-to-end data science projects for clients,
+  including planning, scoping, data engineering, modelling, evaluation and presenting.
   """
-
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
-
 +++
